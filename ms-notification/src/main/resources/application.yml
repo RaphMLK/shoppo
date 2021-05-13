@@ -1,0 +1,34 @@
+server:
+  port: 8085
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:172.28.100.26}
+    port: ${RABBIT_PORT:5674}
+    username: ${RABBIT_USERNAME:shoppo}
+    password: ${RABBIT_PASSWORD:shoppo2020}
+  mail:
+    host: ${MAIL_HOST:ssl0.ovh.net}
+    username: ${MAIL_USERNAME:support@shoppo.fr}
+    password: ${MAIL_PASSWORD:shoppo2020}
+    port: ${MAIL_PORT:587}
+    properties:
+      rename : ${MAIL_USERNAME_PRINT:Support Shoppo}
+  mustache:
+    suffix: ".html"
+    prefix: "classpath:/templates/"
+  config:
+    additional-location: "classpath:/static/,classpath:/templates/"
+mq:
+  exchange:
+    notification: "exchange_notification"
+  queue:
+    notification:
+      create-commerce: "queue_notification_create_commerce"
+      create-client : "queue_notification_create_client"
+      reset-password: "queue_notification_reset_password"
+      add-commercant : "queue_notification_add_commercant"
+  routing-key:
+    add-commercant: "add_commercant"
+    create-client : "create_client"
+    create-commerce : "create_commerce"
+    reset-password: "reset_password"

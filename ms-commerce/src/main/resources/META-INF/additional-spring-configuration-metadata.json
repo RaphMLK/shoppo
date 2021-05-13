@@ -1,0 +1,218 @@
+{
+  "properties": [
+    {
+      "name": "insee.url.sirene",
+      "type": "java.lang.String",
+      "description": "Description for insee.url.sirene."
+    },
+    {
+      "name": "insee.url.nomenclature",
+      "type": "java.lang.String",
+      "description": "Description for insee.url.nomenclature."
+    },
+    {
+      "name": "insee.url.token",
+      "type": "java.lang.String",
+      "description": "Description for insee.url.token."
+    },
+    {
+      "name": "insee.authorization.bearer",
+      "type": "java.lang.String",
+      "description": "Description for insee.authorization.bearer."
+    },
+    {
+      "name": "mq.x-message-ttl",
+      "type": "java.lang.Integer",
+      "description": "Description for mq.x-message-ttl."
+    },
+    {
+      "name": "mq.exchange.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.create-commerce."
+    },
+    {
+      "name": "mq.exchange.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.reset-password."
+    },
+    {
+      "name": "mq.queue.notification.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.create-commerce."
+    },
+    {
+      "name": "mq.queue.notification.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.reset-password."
+    },
+    {
+      "name": "mq.queue.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.create-commerce."
+    },
+    {
+      "name": "mq.queue.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.reset-password."
+    },
+    {
+      "name": "mq.routing-key.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-commerce."
+    },
+    {
+      "name": "mq.routing-key.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.reset-password."
+    },
+    {
+      "name": "mq.routing-key.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.login."
+    },
+    {
+      "name": "mq.queue.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.login."
+    },
+    {
+      "name": "mq.exchange.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.login."
+    },
+    {
+      "name": "mq.routing-key.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.add-commercant."
+    },
+    {
+      "name": "mq.queue.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.add-commercant."
+    },
+    {
+      "name": "mq.queue.notification.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.add-commercant."
+    },
+    {
+      "name": "mq.exchange.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.add-commercant."
+    },
+    {
+      "name": "mq.queue.notification.delete-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.delete-commercant."
+    },
+    {
+      "name": "mq.exchange.delete-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.delete-commercant."
+    },
+    {
+      "name": "mq.queue.delete-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.delete-commercant."
+    },
+    {
+      "name": "mq.routing-key.delete-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.delete-commercant."
+    },
+    {
+      "name": "mq.routing-key.add-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.add-product."
+    },
+    {
+      "name": "mq.queue.add-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.add-product."
+    },
+    {
+      "name": "mq.queue.notification.add-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.add-product."
+    },
+    {
+      "name": "mq.exchange.add-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.add-product."
+    },
+    {
+      "name": "mq.exchange.update-quantity",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.update-quantity."
+    },
+    {
+      "name": "mq.queue.update-quantity",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.update-quantity."
+    },
+    {
+      "name": "mq.routing-key.update-quantity",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.update-quantity."
+    },
+    {
+      "name": "mq.queue.get-products-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.get-products-commerce."
+    },
+    {
+      "name": "mq.routing-key.get-products-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.get-product-commerce."
+    },
+    {
+      "name": "mq.exchange.get-products-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.get-products-commerce."
+    },
+    {
+      "name": "mq.exchange.find-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.find-commercant."
+    },
+    {
+      "name": "mq.queue.find-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.find-commercant."
+    },
+    {
+      "name": "mq.exchange.update-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.update-commerce."
+    },
+    {
+      "name": "mq.routing-key.update-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.update-commerce."
+    },
+    {
+      "name": "mq.queue.update-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.update-commerce."
+    },
+    {
+      "name": "mq.queue.notification.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.create-commande."
+    },
+    {
+      "name": "mq.queue.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.create-commande."
+    },
+    {
+      "name": "mq.routing-key.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-commande."
+    },
+    {
+      "name": "mq.queue.stat.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.stat.create-commande."
+    }
+  ] }

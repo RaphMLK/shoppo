@@ -1,0 +1,37 @@
+server:
+  port: 8084
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:172.28.100.26}
+    port: ${RABBIT_PORT:5674}
+    username: ${RABBIT_USERNAME:shoppo}
+    password: ${RABBIT_PASSWORD:shoppo2020}
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${PG_HOST:172.28.100.26}:${PG_PORT:5432}/${PG_DB:antho}
+    username: ${PG_USER:shoppo}
+    password: ${PG_PASSWORD:shoppo2020}
+    hikari:
+      maximum-pool-size: 1
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+
+mq:
+  x-message-ttl : 5000
+  exchange :
+    admin : "exchange_admin"
+    notification: "exchange_notification"
+  queue :
+    reset-password : "queue_admin_reset_password"
+    login : "queue_admin_login"
+    notification :
+      reset-password : "queue_notification_reset_password"
+  routing-key :
+    reset-password : "admin_reset_password"
+    login: "admin_login"
+    notification:
+      reset-password: "reset_password"

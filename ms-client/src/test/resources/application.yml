@@ -1,0 +1,17 @@
+mq:
+  x-message-ttl : 5000
+  exchange :
+    client : "exchange_client"
+  queue :
+    reset-password : "queue_client_reset_password"
+    create-client : "queue_create_client"
+    login : "queue_client_login"
+    change-password-need: "queue_change_password_need_client"
+    notification :
+      reset-password : "queue_notification_reset_password"
+      create-client : "queue_notification_create_client"
+  routing-key :
+    reset-password : "client_reset_password"
+    create-client : "create_client"
+    login : "client_login"
+    change-password-need : "client_change_password_need"

@@ -1,0 +1,107 @@
+server :
+  port : 8083
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:172.28.100.26}
+    port: ${RABBIT_PORT:5674}
+    username: ${RABBIT_USERNAME:shoppo}
+    password: ${RABBIT_PASSWORD:shoppo2020}
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${PG_HOST:172.28.100.26}:${PG_PORT:5432}/${PG_DB:antho}
+    username: ${PG_USER:shoppo}
+    password: ${PG_PASSWORD:shoppo2020}
+    hikari:
+      maximum-pool-size: 1
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+insee:
+  url :
+    sirene : "https://api.insee.fr/entreprises/sirene/V3"
+    nomenclature : "https://api.insee.fr/metadonnees/nomenclatures/v1"
+    token : "https://api.insee.fr/token"
+  authorization:
+    bearer : "2cf2f136-550b-3320-8cbf-8e77cb993fe0"
+
+
+mq:
+  x-message-ttl : 5000
+  exchange :
+    commerce : "exchange_commerce"
+    notification: "exchange_notification"
+    stat: "exchange_stat"
+  queue :
+    create-commande : "queue_create_commande"
+    create-commerce : "queue_create_commerce"
+    update-commerce : "queue_update_commerce"
+    reset-password : "queue_commercant_reset_password"
+    login : "queue_commercant_login"
+    add-commercant : "queue_add_commercant"
+    delete-commercant : "queue_delete_commercant"
+    find-commercant: "queue_find_commercant"
+    add-product: "queue_add_product"
+    edit-product: "queue_edit_product"
+    delete-product: "queue_delete_product"
+    get-product: "queue_get_product"
+    update-quantity: "queue_update_quantity"
+    get-products-commerce: "queue_get_products_commerce"
+    change-password-need: "queue_change_password_need_commercant"
+    get-all-commerces : "queue_get_all_commerces"
+    get-commandes-commerce: "queue_get_commandes_commerce"
+    get-commandes-client: "queue_get_commandes_client"
+    get-client: "queue_get_client"
+    get-panier: "queue_get_panier"
+    update-panier: "queue_update_panier"
+    get-commande: "queue_get_commande"
+    get-commercant: "queue_get_commercant"
+    update-commande-traitee: "queue_update_commande_traitee"
+    get-panier-by-commerce: "queue_get_panier_by_commerce"
+    create-commande-by-commerce: "queue_create_commande_by_commerce"
+    add-vfp-by-product-and-commerce: "queue_add_vfp_by_product_and_commerce"
+    delete-vfp-by-commerce: "queue_delete_vfp_by_commerce"
+    get-product-commerce-not-vfp: "queue_get_product_commerce_not_vfp"
+    get-product-commerce-vfp: "queue_get_product_commerce_vfp"
+    add-delete-vfp-panier: "queue_add_delete_vfp_panier"
+  routing-key :
+    create-commande : "create_commande"
+    create-commerce : "create_commerce"
+    update-commerce: "update_commerce"
+    reset-password : "commercant_reset_password"
+    login : "commercant_login"
+    add-commercant : "add_commercant"
+    delete-commercant : "delete_commercant"
+    find-commercant: "find_commercant"
+    add-product: "add_product"
+    edit-product: "edit_product"
+    delete-product: "delete_product"
+    get-product: "get_product"
+    update-quantity: "update_quantity"
+    get-products-commerce: "get_products_commerce"
+    change-password-need: "commercant_change_password_need"
+    get-all-commerces : "get_all_commerces"
+    get-commandes-commerce: "get_commandes_commerce"
+    get-commandes-client: "get_commandes_client"
+    get-client: "get_client"
+    get-panier: "get_panier"
+    update-panier: "update_panier"
+    get-commande: "get_commande"
+    get-commercant: "get_commercant"
+    update-commande-traitee: "update_commande_traitee"
+    get-panier-by-commerce: "get_panier_by_commerce"
+    create-commande-by-commerce: "create_commande_by_commerce"
+    add-vfp-by-product-and-commerce: "add_vfp_by_product_and_commerce"
+    delete-vfp-by-commerce: "delete_vfp_by_commerce"
+    get-product-commerce-not-vfp: "get_product_commerce_not_vfp"
+    get-product-commerce-vfp: "get_product_commerce_vfp"
+    add-delete-vfp-panier: "add_delete_vfp_panier"
+    notification:
+      add-commercant: "add_commercant"
+      create-commerce: "create_commerce"
+      reset-password: "reset_password"
+      create-commande: "create_commande"
+    stat:
+      create-commande: "stat_create_commande"

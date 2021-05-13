@@ -1,0 +1,53 @@
+{
+  "properties": [
+    {
+      "name": "mongo.database.url",
+      "type": "java.lang.String",
+      "description": "Description for mongo.database.url."
+    },
+    {
+      "name": "mongo.database.name",
+      "type": "java.lang.String",
+      "description": "Description for mongo.database.name."
+    },
+    {
+      "name": "shoppo.stat.zone",
+      "type": "java.lang.String",
+      "description": "Description for shoppo.stat.zone."
+    },
+    {
+      "name": "mq.queue.stat.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.stat.create-commande."
+    },
+    {
+      "name": "mq.queue.stat.read",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.stat.read."
+    },
+    {
+      "name": "mq.exchange.stat",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.stat."
+    },
+    {
+      "name": "mq.x-message-ttl",
+      "type": "java.lang.String",
+      "description": "Description for mq.x-message-ttl."
+    },
+    {
+      "name": "mq.routing-key.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-commande."
+    },
+    {
+      "name": "mq.routing-key.read",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.read."
+    },
+    {
+      "name": "shoppo.stat.cron",
+      "type": "java.lang.String",
+      "description": "Description for shoppo.stat.cron."
+    }
+  ] }

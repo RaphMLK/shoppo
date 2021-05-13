@@ -1,0 +1,108 @@
+{
+  "properties": [
+    {
+      "name": "mq.queue.notification.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.reset-password."
+    },
+    {
+      "name": "mq.routing-key.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.reset-password."
+    },
+    {
+      "name": "mq.queue.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.reset-password."
+    },
+    {
+      "name": "mq.exchange.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.reset-password."
+    },
+    {
+      "name": "mq.x-message-ttl",
+      "type": "java.lang.Integer",
+      "description": "Description for mq.x-message-ttl."
+    },
+    {
+      "name": "mq.exchange.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.create-client."
+    },
+    {
+      "name": "mq.queue.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.create-client."
+    },
+    {
+      "name": "mq.queue.notification.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.create-client."
+    },
+    {
+      "name": "mq.routing-key.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-client."
+    },
+    {
+      "name": "mq.routing-key.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.login."
+    },
+    {
+      "name": "mq.queue.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.login."
+    },
+    {
+      "name": "mq.exchange.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.login."
+    },
+    {
+      "name": "mq.queue.change-password-need",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.change-password-need."
+    },
+    {
+      "name": "mq.queue.update-solde",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.update-solde."
+    },
+    {
+      "name": "mq.exchange.client",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.client."
+    },
+    {
+      "name": "mq.routing-key.change-password-need",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.change-password-need."
+    },
+    {
+      "name": "shoppo.vfp.cron",
+      "type": "java.lang.String",
+      "description": "Description for shoppo.vfp.cron."
+    },
+    {
+      "name": "shoppo.vfp.zone",
+      "type": "java.lang.String",
+      "description": "Description for shoppo.vfp.zone."
+    },
+    {
+      "name": "shoppo.vfp.taux",
+      "type": "java.lang.Float",
+      "description": "Description for shoppo.vfp.taux."
+    },
+    {
+      "name": "shoppo.vfp.balance",
+      "type": "java.lang.Float",
+      "description": "Description for shoppo.vfp.balance."
+    },
+    {
+      "name": "shoppo.vfp.seuil_status",
+      "type": "java.lang.Float",
+      "description": "Description for shoppo.vfp.seuil_status."
+    }
+  ] }

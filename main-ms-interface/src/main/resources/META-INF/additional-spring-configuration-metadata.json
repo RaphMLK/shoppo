@@ -1,0 +1,183 @@
+{
+  "properties": [
+    {
+      "name": "mq.routing-key.reset-password-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.reset-password-client."
+    },
+    {
+      "name": "mq.routing-key.reset-password-admin",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.reset-password-admin."
+    },
+    {
+      "name": "mq.routing-key.reset-password-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.reset-password-commercant."
+    },
+    {
+      "name": "mq.routing-key.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-commerce."
+    },
+    {
+      "name": "mq.exchange.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.reset-password."
+    },
+    {
+      "name": "mq.exchange.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.create-commerce."
+    },
+    {
+      "name": "mq.x-message-ttl",
+      "type": "java.lang.Integer",
+      "description": "Description for mq.x-message-ttl."
+    },
+    {
+      "name": "mq.routing-key.login-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.login-client."
+    },
+    {
+      "name": "mq.routing-key.login-admin",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.login-admin."
+    },
+    {
+      "name": "mq.routing-key.login-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.login-commercant."
+    },
+    {
+      "name": "mq.exchange.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.login."
+    },
+    {
+      "name": "mq.exchange.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.create-client."
+    },
+    {
+      "name": "mq.routing-key.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-client."
+    },
+    {
+      "name": "mq.exchange.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.add-commercant."
+    },
+    {
+      "name": "mq.routing-key.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.add-commercant."
+    },
+    {
+      "name": "securite.url.role.prefixe-client",
+      "type": "java.lang.String",
+      "description": "Description for securite.url.role.prefixe-client."
+    },
+    {
+      "name": "securite.url.role.prefixe-commercant",
+      "type": "java.lang.String",
+      "description": "Description for securite.url.role.prefixe-commercant."
+    },
+    {
+      "name": "securite.url.role.prefixe-admin",
+      "type": "java.lang.String",
+      "description": "Description for securite.url.role.prefixe-admin."
+    },
+    {
+      "name": "mq.exchange.delete-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.delete-commercant."
+    },
+    {
+      "name": "mq.routing-key.delete-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.delete-commercant."
+    },
+    {
+      "name": "mq.routing-key.update-quantity",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.update-quantity."
+    },
+    {
+      "name": "mq.routing-key.add-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.add-product."
+    },
+    {
+      "name": "mq.exchange.add-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.add-product."
+    },
+    {
+      "name": "mq.exchange.update-quantity",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.update-quantity."
+    },
+    {
+      "name": "mq.routing-key.get-products-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.get-products-commerce."
+    },
+    {
+      "name": "mq.exchange.get-products-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.get-products-commerce."
+    },
+    {
+      "name": "mq.exchange.change-password-need-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.change-password-need-client."
+    },
+    {
+      "name": "mq.exchange.change-password-need-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.change-password-need-commercant."
+    },
+    {
+      "name": "mq.exchange.edit-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.edit-product."
+    },
+    {
+      "name": "mq.exchange.delete-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.delete-product."
+    },
+    {
+      "name": "mq.exchange.get-product",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.get-product."
+    },
+    {
+      "name": "mq.routing-key.find-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.find-commercant."
+    },
+    {
+      "name": "mq.exchange.find-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.find-commercant."
+    },
+    {
+      "name": "mq.routing-key.update-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.update-commerce."
+    },
+    {
+      "name": "mq.exchange.update-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.update-commerce."
+    },
+    {
+      "name": "mq.routing-key.create-commande",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.create-commande."
+    }
+  ] }

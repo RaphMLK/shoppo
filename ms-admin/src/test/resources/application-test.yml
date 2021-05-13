@@ -1,0 +1,13 @@
+mq:
+  x-message-ttl : 5000
+  exchange :
+    reset-password : "exchange_reset_password"
+    login: "exchange_login"
+  queue :
+    reset-password : "queue_admin_reset_password"
+    login : "queue_admin_login"
+    notification :
+      reset-password : "queue_notification_reset_password"
+  routing-key :
+    reset-password : "admin_reset_password"
+    login: "admin_login"

@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "mq.queue.notification.create-commerce",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.create-commerce."
+    },
+    {
+      "name": "mq.queue.notification.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.reset-password."
+    },
+    {
+      "name": "mq.queue.notification.add-commercant",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.add-commercant."
+    },
+    {
+      "name": "mq.queue.notification.create-client",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.create-client."
+    }
+  ] }

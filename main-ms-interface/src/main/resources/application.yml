@@ -1,0 +1,79 @@
+server:
+  port: 8081
+  servlet :
+    context-path : /rest
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:172.28.100.26}
+    port: ${RABBIT_PORT:5674}
+    username: ${RABBIT_USERNAME:shoppo}
+    password: ${RABBIT_PASSWORD:shoppo2020}
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${PG_HOST:172.28.100.26}:${PG_PORT:5432}/${PG_DB:antho}
+    username: ${PG_USER:shoppo}
+    password: ${PG_PASSWORD:shoppo2020}
+    hikari:
+      maximum-pool-size: 1
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+
+logging:
+  level:
+    web : TRACE
+mq:
+  x-message-ttl : 5000
+  exchange :
+    admin : "exchange_admin"
+    client : "exchange_client"
+    commerce : "exchange_commerce"
+    stat: "exchange_stat"
+  routing-key :
+    create-commande : "create_commande"
+    create-commerce : "create_commerce"
+    update-commerce : "update_commerce"
+    create-client : "create_client"
+    reset-password-commercant : "commercant_reset_password"
+    reset-password-admin : "admin_reset_password"
+    reset-password-client : "client_reset_password"
+    login-client: "client_login"
+    login-admin: "admin_login"
+    login-commercant: "commercant_login"
+    add-commercant : "add_commercant"
+    delete-commercant : "delete_commercant"
+    find-commercant : "find_commercant"
+    add-product: "add_product"
+    change-password-need-client: "client_change_password_need"
+    change-password-need-commercant: "commercant_change_password_need"
+    edit-product: "edit_product"
+    delete-product: "delete_product"
+    get-product: "get_product"
+    update-quantity: "update_quantity"
+    get-products-commerce: "get_products_commerce"
+    get-commandes-commerce: "get_commandes_commerce"
+    get-client: "get_client"
+    get-commandes-client: "get_commandes_client"
+    get-all-commerces : "get_all_commerces"
+    get-panier: "get_panier"
+    update-panier: "update_panier"
+    get-commande: "get_commande"
+    get-commercant: "get_commercant"
+    update-solde-client : "update_solde"
+    update-commande-traitee: "update_commande_traitee"
+    get-panier-by-commerce: "get_panier_by_commerce"
+    get-client-qrcode: "get_client_qrcode"
+    create-commande-by-commerce: "create_commande_by_commerce"
+    add-vfp-by-product-and-commerce: "add_vfp_by_product_and_commerce"
+    delete-vfp-by-commerce: "delete_vfp_by_commerce"
+    get-product-commerce-not-vfp: "get_product_commerce_not_vfp"
+    get-product-commerce-vfp: "get_product_commerce_vfp"
+    update-avantage: "update_avantage"
+    get-all-avantage: "get_all_avantage"
+    add-delete-vfp-panier: "add_delete_vfp_panier"
+    read-stat: "stat_read"
+    is-transport: "is_transport"
+    is-park: "is_park"

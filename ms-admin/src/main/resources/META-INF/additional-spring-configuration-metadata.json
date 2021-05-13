@@ -1,0 +1,43 @@
+{
+  "properties": [
+    {
+      "name": "mq.x-message-ttl",
+      "type": "java.lang.String",
+      "description": "Description for mq.x-message-ttl."
+    },
+    {
+      "name": "mq.exchange.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.reset-password."
+    },
+    {
+      "name": "mq.exchange.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.exchange.login."
+    },
+    {
+      "name": "mq.queue.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.reset-password."
+    },
+    {
+      "name": "mq.queue.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.login."
+    },
+    {
+      "name": "mq.queue.notification.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.queue.notification.reset-password."
+    },
+    {
+      "name": "mq.routing-key.reset-password",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.reset-password."
+    },
+    {
+      "name": "mq.routing-key.login",
+      "type": "java.lang.String",
+      "description": "Description for mq.routing-key.login."
+    }
+  ] }

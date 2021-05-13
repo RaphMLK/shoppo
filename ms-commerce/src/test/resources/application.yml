@@ -1,0 +1,28 @@
+mq:
+  x-message-ttl : 5000
+  exchange :
+    create-commerce : "exchange_create_commerce"
+    reset-password : "exchange_reset_password"
+    login : "exchange_login"
+    add-commercant : "exchange_add_commercant"
+    delete-commercant : "exchange_delete_commercant"
+    change-password-need: "exchange_change_password_need"
+  queue :
+    notification :
+      create-commerce : "queue_notification_create_commerce"
+      reset-password : "queue_notification_reset_password"
+      add-commercant : "queue_notification_add_commercant"
+      delete-commercant: "queue_notification_delete_commercant"
+    create-commerce : "queue_create_commerce"
+    reset-password : "queue_commercant_reset_password"
+    login : "queue_commercant_login"
+    add-commercant : "queue_add_commercant"
+    delete-commercant : "queue_delete_commercant"
+    change-password-need: "queue_change_password_need"
+  routing-key :
+    create-commerce : "create_commerce"
+    reset-password : "commercant_reset_password"
+    login : "commercant_login"
+    add-commercant : "add_commercant"
+    delete-commercant : "delete_commercant"
+    change-password-need: "commercant_change_password_need"
